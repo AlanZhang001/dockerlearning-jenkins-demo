@@ -1,0 +1,22 @@
+{
+  "name": "dockerlearning-jenkins-demo",
+  "version": "1.0.0",
+  "description": "用于测试jenkins自动化构建，无其他用处",
+  "main": "index.js",
+  "scripts": {
+    "build" : "echo 'jenkins build javascript'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlanZhang001/dockerlearning-jenkins-demo.git"
+  },
+  "keywords": [
+    "用于测试jenkins自动化构建，无其他用处"
+  ],
+  "author": "alanzhang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlanZhang001/dockerlearning-jenkins-demo/issues"
+  },
+  "homepage": "https://github.com/AlanZhang001/dockerlearning-jenkins-demo#readme"
+}
