@@ -4,6 +4,7 @@
   "description": "用于测试jenkins自动化构建，无其他用处",
   "main": "index.js",
   "scripts": {
+    "prebuild":"npm ci --registry=https://registry.npm.taobao.org",
     "build": "webpack --mode development"
   },
   "repository": {
