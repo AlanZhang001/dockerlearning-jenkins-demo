@@ -4,7 +4,7 @@
   "description": "用于测试jenkins自动化构建，无其他用处",
   "main": "index.js",
   "scripts": {
-    "build" : "echo 'jenkins build javascript'"
+    "build": "webpack --mode development"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/AlanZhang001/dockerlearning-jenkins-demo/issues"
   },
-  "homepage": "https://github.com/AlanZhang001/dockerlearning-jenkins-demo#readme"
+  "homepage": "https://github.com/AlanZhang001/dockerlearning-jenkins-demo#readme",
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
 }
